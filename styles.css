@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+.quote-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  margin: 20px;
+}
+
+.quote {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.author {
+  font-size: 1.1em;
+  color: #562626;
+}
+
+.new-quote {
+  margin-top: 35px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #c64bb5;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 25px;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
